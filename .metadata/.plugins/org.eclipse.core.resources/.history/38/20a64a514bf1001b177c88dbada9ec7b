@@ -1,0 +1,11 @@
+package com.telstra.servicepack;
+
+import com.telstra.model.toyop.ToyMethodsImplementation;
+
+public class CustomerServices {
+	
+	public static ToyMethodsImplementation custObj = new ToyMethodsImplementation();
+	
+	
+
+}

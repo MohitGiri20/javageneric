@@ -1,0 +1,47 @@
+package com.telstra.servicepack;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import com.telstra.model.ppack.Toy;
+import com.telstra.model.toyop.ToyMethodsImplementation;
+
+
+public class CustomerServiceImplementation {
+	
+	
+	private static int count = 1;
+	private ArrayList<Toy> custShoppingList;
+	private int rentalId;
+	private HashMap<Integer, Float> custMap = new HashMap<Integer,Float>();
+	
+//	public Customer() {
+//		super();
+//		this.tid =count++;
+//	}
+	
+	public void addToCart(int toyId, int units) {
+		ToyMethodsImplementation tobj =new ToyMethodsImplementation();
+		Toy toy = tobj.getToy(toyId);
+		custShoppingList.add(toy);
+		custMap.put(toy.getToyId(), toy.getPrice()*units);
+		
+	}
+	
+	public int getBill() {
+		
+		int totalAmount = 0;
+		
+		for(int ele : smap.keySet()) {
+			totalAmount+=smap.get(ele); 
+		}
+		
+		return totalAmount;
+		
+//		Collection<Integer> value = smap.values();
+//		Iterator<Integer> it = 
+	}
+	
+	
+
+}

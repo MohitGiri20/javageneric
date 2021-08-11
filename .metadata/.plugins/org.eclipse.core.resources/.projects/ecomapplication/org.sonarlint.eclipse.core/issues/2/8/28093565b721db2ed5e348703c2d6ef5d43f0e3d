@@ -1,0 +1,22 @@
+
+a
+java:S2209"5Change this instance-reference to a static reference.(ıî›´HêRMAJORZ
+CODE_SMELL
+¡
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(—™‹áùÿÿÿÿHíRMINORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(«ğºşÿÿÿÿHéRMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(—™‹áùÿÿÿÿHçRMAJORZ
+CODE_SMELL
+a
+java:S2209"5Change this instance-reference to a static reference.(¯ôîªHìRMAJORZ
+CODE_SMELL
+`
+java:S3740"/Provide the parametrized type for this generic.(«ğºşÿÿÿÿHèRMAJORZ
+CODE_SMELL
+f
+java:S2209"5Change this instance-reference to a static reference.(‡ƒı„şÿÿÿÿHëRMAJORZ
+CODE_SMELL

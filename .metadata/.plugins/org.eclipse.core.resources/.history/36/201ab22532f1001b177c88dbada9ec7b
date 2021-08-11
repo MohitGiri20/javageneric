@@ -1,0 +1,9 @@
+package com.telstra.servicepack;
+
+public interface CustomerService {
+	
+	 void rent();
+	 void search();
+	 void display();
+
+}

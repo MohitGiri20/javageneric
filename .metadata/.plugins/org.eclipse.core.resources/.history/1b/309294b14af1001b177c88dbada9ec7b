@@ -1,0 +1,93 @@
+package com.telstra.servicepack;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import com.telstra.model.ppack.Toy;
+import com.telstra.model.toyop.ToyMethodsImplementation;
+
+
+public class CustomerServiceImplementation implements CustomerService{
+	
+	
+	private static int count = 1; //TODO
+	private ArrayList<Toy> custShoppingList;
+	private int rentalId; //TODO
+	private HashMap<Integer, Float> custMap = new HashMap<Integer,Float>();
+	
+//	public Customer() {
+//		super();
+//		this.tid =count++;
+//	}
+	
+//	public void addToCart(int toyId, int units) {
+//		ToyMethodsImplementation tobj =new ToyMethodsImplementation();
+//		Toy toy = tobj.getToy(toyId);
+//		custShoppingList.add(toy);
+//		custMap.put(toy.getToyId(), toy.getPrice()*units);
+//		
+//	}
+	
+	public float getCustomerBill() {
+		
+		float totalAmount = 0.0f;
+		
+		for(int ele : custMap.keySet()) {
+			totalAmount+=custMap.get(ele); 
+		}
+		
+		return totalAmount;
+		
+//		Collection<Integer> value = smap.values();
+//		Iterator<Integer> it = 
+	}
+
+	@Override
+	public void rent(int toyId,int units) {
+		// TODO Auto-generated method stub
+		
+		ToyMethodsImplementation tobj =new ToyMethodsImplementation();
+		Toy toy = tobj.getToy(toyId);
+		custShoppingList.add(toy);
+		custMap.put(toy.getToyId(), toy.getPrice()*units);
+		
+	}
+
+	@Override
+	public String search(int toyId) {
+		// TODO Auto-generated method stub
+		ToyMethodsImplementation tobj =new ToyMethodsImplementation();
+		ArrayList<Toy> tempArr = tobj.getAllToys();
+		
+		for(Toy toy : tempArr) {
+			
+			if(toy.getToyId() == toyId) {
+				return ("Toy found " + tobj.getToy(toyId) );
+			}
+		}
+		return "Toy not found";
+	}
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		ToyMethodsImplementation tobj =new ToyMethodsImplementation();
+		ArrayList<Toy> tempArr = tobj.getAllToys();
+		
+		for(Toy toy : tempArr) {
+		   System.out.println(toy);
+		}
+		
+	}
+
+	@Override
+	public Toy getToy(int toyId) {
+		// TODO Auto-generated method stub
+		ToyMethodsImplementation tobj =new ToyMethodsImplementation();
+		
+		return tobj.getToy(toyId);
+	}
+	
+	
+
+}

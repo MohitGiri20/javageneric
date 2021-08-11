@@ -1,0 +1,38 @@
+
+s	java:S125L"<This block of commented-out lines of code should be removed.(ìŽÇñùÿÿÿÿ8¯¬Ø¦±/HÖRMAJORZ
+CODE_SMELL
+n	java:S125."<This block of commented-out lines of code should be removed.(ñâ­Õ8‘Îÿ¦±/H×RMAJORZ
+CODE_SMELL
+º
+java:S2681%"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(¯ÀÚè8²ÖÃ¯±/HâRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ãž‘ßûÿÿÿÿ8²ÖÃ¯±/HáRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(êŽð»ýÿÿÿÿ8é¨Š§±/HãRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åõÈHäRMINORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHåRINFOZ
+CODE_SMELL
+‘
+java:S2293N"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡õóªþÿÿÿÿ8ˆþü¦±/HæRMINORZ
+CODE_SMELL
+s	java:S125X"<This block of commented-out lines of code should be removed.(†µ¢Äüÿÿÿÿ8¯¬Ø¦±/HçRMAJORZ
+CODE_SMELL
+s	java:S125V"<This block of commented-out lines of code should be removed.(Õ§àëúÿÿÿÿ8¯¬Ø¦±/HéRMAJORZ
+CODE_SMELL
+Œ
+java:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö·ëÁ8ˆþü¦±/HêRMINORZ
+CODE_SMELL
+b
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8ù‰Ž§±/HëRMINORZ
+CODE_SMELL
+W
+java:S1659"Declare "j" on a separate line.(á”æåþÿÿÿÿ8²ÖÃ¯±/HâRMINORZ
+CODE_SMELL
+s	java:S125O"<This block of commented-out lines of code should be removed.(†ñ–Šûÿÿÿÿ8¯¬Ø¦±/HìRMAJORZ
+CODE_SMELL
+g
+java:S2864Q"4Iterate over the "entrySet" instead of the "keySet".(«—‡ä8¯¬Ø¦±/HíRMAJORZ
+CODE_SMELL

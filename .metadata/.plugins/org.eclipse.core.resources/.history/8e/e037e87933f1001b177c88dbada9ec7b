@@ -1,0 +1,9 @@
+package com.telstra.servicepack;
+
+public interface CustomerService {
+	
+	 void rent(int toyId); // Add details of rented toy
+	 void search(int toyId);
+	 void display();
+
+}

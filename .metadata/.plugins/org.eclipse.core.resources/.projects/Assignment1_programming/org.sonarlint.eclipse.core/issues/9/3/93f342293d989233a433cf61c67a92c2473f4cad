@@ -1,0 +1,61 @@
+
+[
+java:S3740m"/Provide the parametrized type for this generic.(ø†—‚HˆRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(Ş¦¼AH‰RMAJORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHŠRINFOZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(Úƒ®‹úÿÿÿÿH‹RMAJORZ
+CODE_SMELL
+l	java:S125!"<This block of commented-out lines of code should be removed.(¼ÖºÔÿÿÿÿÿHŒRMAJORZ
+CODE_SMELL
+K
+java:S1659-"Declare "j" on a separate line.(‹¡ëHRMINORZ
+CODE_SMELL
+d	java:S106;"9Replace this use of System.out or System.err by a logger.(’ª•ÎHRMAJORZ
+CODE_SMELL
+d	java:S106>"9Replace this use of System.out or System.err by a logger.(üÅ¬HRMAJORZ
+CODE_SMELL
+i	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHRMAJORZ
+CODE_SMELL
+…
+java:S2293G"YReplace the type specification in this constructor call with the diamond operator ("<>").(×…›ˆH‘RMINORZ
+CODE_SMELL
+d	java:S106U"9Replace this use of System.out or System.err by a logger.(€¯ÊèH’RMAJORZ
+CODE_SMELL
+d	java:S106V"9Replace this use of System.out or System.err by a logger.(ÅòŸˆH“RMAJORZ
+CODE_SMELL
+d	java:S106Z"9Replace this use of System.out or System.err by a logger.(ù€•H”RMAJORZ
+CODE_SMELL
+`
+java:S2864["4Iterate over the "entrySet" instead of the "keySet".(§µÊ·H•RMAJORZ
+CODE_SMELL
+i	java:S106\"9Replace this use of System.out or System.err by a logger.(šäğÈüÿÿÿÿH–RMAJORZ
+CODE_SMELL
+d	java:S106e"9Replace this use of System.out or System.err by a logger.(ù€•H—RMAJORZ
+CODE_SMELL
+…
+java:S2293g"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìÑH˜RMINORZ
+CODE_SMELL
+d	java:S106o"9Replace this use of System.out or System.err by a logger.(É„†úH™RMAJORZ
+CODE_SMELL
+d	java:S106r"9Replace this use of System.out or System.err by a logger.(ù€•HšRMAJORZ
+CODE_SMELL
+…
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¿Ü¹H›RMINORZ
+CODE_SMELL
+c	java:S106}"9Replace this use of System.out or System.err by a logger.(¯´Ô5HœRMAJORZ
+CODE_SMELL
+ 
+java:S1192Z"qDefine a constant instead of duplicating this literal "------------------------------------------------" 3 times.(ù€•HRCRITICALZ
+CODE_SMELL
+€
+java:S1104"OMake scn a static final constant or non-public and provide accessors if needed.(›ÁÕşÿÿÿÿH¡RMINORZ
+CODE_SMELL
+Z
+java:S1444")Make this "public static scn" field final(›ÁÕşÿÿÿÿH¢RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±é§êùÿÿÿÿH£RMINORZ
+CODE_SMELL

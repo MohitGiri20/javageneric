@@ -1,0 +1,79 @@
+package com.Telstra;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Question4 {
+
+	
+	public static Scanner scn = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//4. To remove all the duplicate  elements in an integer array
+		
+		System.out.println("Enter the size of the array:");
+		
+		int size = scn.nextInt();
+		
+		int [] arr = new int[size];
+		
+		System.out.println("Enter Array Elements");
+		for(int i=0; i < size; i++) {
+			
+			arr[i] = scn.nextInt();
+		}
+		
+		removeDuplicates(arr);
+		
+		removeDuplicatesMap(arr);
+		
+	}
+	
+	public static void removeDuplicates(int[] arr) {
+		
+        Arrays.sort(arr);
+		
+		
+		int i=0,j=1;
+		
+		while(j < arr.length) {
+			
+		    if(arr[i]!=arr[j]) {
+		    	i++;
+		    	arr[i] =arr[j];
+		    	j++;
+		    }else {
+		    	
+		    	j++;
+		    }
+		}
+		
+		System.out.println("Array elements after removing duplicate elements are");
+		
+		for(int itr =0;itr<=i;itr++) {
+			System.out.print(arr[itr] + " ");
+		}
+		
+	}
+	
+	public static void removeDuplicatesMap(int[] arr) {
+		
+		HashMap<Integer,Integer> map  = new HashMap<Integer,Integer>();
+		
+		for(int i=0;i<arr.length;i++) {
+			if(!map.containsKey(arr[i])) {
+                map.put(arr[i], 1); 
+			}else {
+				 map.put(arr[i],map.get(arr[i])+1);
+			}
+		}
+		
+		for(HashMap.Entry<Integer,Integer> entry : map.entrySet()) {
+			
+			System.out.println(entry.getKey() + ":" + entry.getValue());
+		}
+	}
+
+}

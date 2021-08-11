@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.Telstra.emppack&apos; to &apos;AbstractClassDemo/src&apos;&#x0D;&#x0A;- Original project: &apos;InheritanceDemo&apos;&#x0D;&#x0A;- Destination element: &apos;AbstractClassDemo/src&apos;&#x0D;&#x0A;- Original element: &apos;InheritanceDemo/src/com.Telstra.emppack&apos;" description="Copy package" destination="=AbstractClassDemo/src" element1="/src&lt;com.Telstra.emppack" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1626865285299" version="1.0"/>
+</session>

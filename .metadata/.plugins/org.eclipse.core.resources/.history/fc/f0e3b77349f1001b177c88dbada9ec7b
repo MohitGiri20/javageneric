@@ -1,0 +1,12 @@
+package com.telstra.servicepack;
+
+import com.telstra.model.ppack.Toy;
+
+public interface CustomerService {
+	
+	 Toy rent(int toyId,int units); // Add details of rented toy
+	 void getToy(int toyId);
+	 String search(int toyId);
+	 void display();
+
+}

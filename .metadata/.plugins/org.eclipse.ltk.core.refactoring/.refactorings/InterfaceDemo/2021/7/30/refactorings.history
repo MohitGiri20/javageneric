@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.telstra.Reports.java&apos; to &apos;Main.java&apos;&#x0D;&#x0A;- Original project: &apos;InterfaceDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.telstra.Reports.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.telstra.Main.java&apos;" description="Rename compilation unit &apos;Reports.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.telstra{Reports.java" name="Main.java" references="false" stamp="1626934311507" version="1.0"/>
+</session>
